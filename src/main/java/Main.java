@@ -15,7 +15,6 @@ public class Main {
             while((line = br.readLine()) != null){
                 String[] cols = line.split(",");
                 System.out.println(cols[1].startsWith(sc.toString()));
-//                System.out.println(line);
             }
         } catch (Exception e){
             System.out.println(e);
